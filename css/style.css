@@ -23,6 +23,18 @@ body::after{
     border-radius: 55px;
 }
 
+@media screen and (max-width: 827px) {
+    .content{
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .content{
+        width: 85%;
+    }
+}
+
 .content h1{
     text-align: center;
 }
@@ -43,4 +55,14 @@ body::after{
 
 #btn-order:hover{
  border: 1px solid blue;
+}
+
+#report{
+    display: flex;
+    justify-content: center;
+    color: brown;
+    font-size: 22px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
 }
